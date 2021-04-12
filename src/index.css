@@ -15,7 +15,7 @@ body {
   
   .status {
     margin-bottom: 10px;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: dodgerblue;
   }
   
@@ -51,3 +51,15 @@ body {
     margin-left: 20px;
   }
   
+  .step {
+    border: 0;
+    color: violet;
+    text-decoration: underline;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    background-color: transparent;
+  }
+  .step:hover {
+    color: dodgerblue;
+    cursor: pointer;
+  }
